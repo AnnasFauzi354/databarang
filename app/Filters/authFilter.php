@@ -9,18 +9,17 @@ use CodeIgniter\HTTP\ResponseInterface;
 class AuthFilter implements FilterInterface
 {
     public function before(RequestInterface $request, $arguments = null)
-    { {
-            $allowedRoutes = [
-                'login',
-                'login/process',
-                'registrasi',
-                'registrasi/process',
-                'pages/registrasi'
-            ];
+    {
+        $allowedRoutes = [
+            'login',
+            'login/process',
+            'registrasi',
+            'registrasi/process',
+            'pages/registrasi'
+        ];
 
-            if (!session()->get('isLoggedIn') && !in_array($request->getUri()->getPath(), $allowedRoutes)) {
-                return redirect()->to('/login');
-            }
+        if (!session()->get('isLoggedIn') && !in_array($request->getUri()->getPath(), $allowedRoutes)) {
+            return redirect()->to('/login');
         }
     }
 
