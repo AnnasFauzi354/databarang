@@ -164,9 +164,9 @@ class ComposerStaticInit657ac079313fab046eb8c29fe1d6992b
     public static $classMap = array (
         'App\\Controllers\\BaseController' => __DIR__ . '/../..' . '/app/Controllers/BaseController.php',
         'App\\Controllers\\Home' => __DIR__ . '/../..' . '/app/Controllers/Home.php',
+        'App\\Controllers\\Login' => __DIR__ . '/../..' . '/app/Controllers/Login.php',
         'App\\Controllers\\Pages' => __DIR__ . '/../..' . '/app/Controllers/Pages.php',
-        'App\\Controllers\\barang' => __DIR__ . '/../..' . '/app/Controllers/barang.php',
-        'App\\Controllers\\register' => __DIR__ . '/../..' . '/app/Controllers/register.php',
+        'App\\Controllers\\Register' => __DIR__ . '/../..' . '/app/Controllers/Register.php',
         'App\\Models\\databarangModel' => __DIR__ . '/../..' . '/app/Models/databarangModel.php',
         'BaconQrCode\\Common\\BitArray' => __DIR__ . '/..' . '/bacon/bacon-qr-code/src/Common/BitArray.php',
         'BaconQrCode\\Common\\BitMatrix' => __DIR__ . '/..' . '/bacon/bacon-qr-code/src/Common/BitMatrix.php',

@@ -8,9 +8,9 @@ $baseDir = dirname($vendorDir);
 return array(
     'App\\Controllers\\BaseController' => $baseDir . '/app/Controllers/BaseController.php',
     'App\\Controllers\\Home' => $baseDir . '/app/Controllers/Home.php',
+    'App\\Controllers\\Login' => $baseDir . '/app/Controllers/Login.php',
     'App\\Controllers\\Pages' => $baseDir . '/app/Controllers/Pages.php',
-    'App\\Controllers\\barang' => $baseDir . '/app/Controllers/barang.php',
-    'App\\Controllers\\register' => $baseDir . '/app/Controllers/register.php',
+    'App\\Controllers\\Register' => $baseDir . '/app/Controllers/Register.php',
     'App\\Models\\databarangModel' => $baseDir . '/app/Models/databarangModel.php',
     'BaconQrCode\\Common\\BitArray' => $vendorDir . '/bacon/bacon-qr-code/src/Common/BitArray.php',
     'BaconQrCode\\Common\\BitMatrix' => $vendorDir . '/bacon/bacon-qr-code/src/Common/BitMatrix.php',
