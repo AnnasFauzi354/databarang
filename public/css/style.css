@@ -1,0 +1,84 @@
+.gambar {
+width: 70px;
+}
+.table > tbody > tr > *{
+    vertical-align: middle;
+}
+.is-invalid {
+    border-color: #dc3545;
+}
+
+.invalid-feedback {
+    width: 100%;
+    margin-top: 0.25rem;
+    font-size: 0.875em;
+    color: #dc3545;
+}
+
+.alert {
+    position: fixed;
+    top: 20px;
+    right: 20px;
+    z-index: 9999;
+    min-width: 300px;
+    animation: slideIn 0.5s forwards;
+}
+
+@keyframes slideIn {
+    from { transform: translateX(100%); opacity: 0; }
+    to { transform: translateX(0); opacity: 1; }
+}
+ .detail-item {
+        display: flex;
+        flex-direction: column;
+    }
+    .detail-label {
+        font-size: 0.85rem;
+        color: #6c757d;
+        font-weight: 500;
+    }
+    .detail-value {
+        font-size: 1rem;
+        color: #212529;
+        font-weight: 400;
+    }
+    .card {
+        border-radius: 10px;
+        overflow: hidden;
+    }
+ .card {
+        overflow: hidden;
+    }
+    .badge {
+        padding: 0.35em 0.65em;
+        font-size: 0.75em;
+    }
+    @media (max-width: 768px) {
+        .flex-md-row {
+            flex-direction: column !important;
+        }}
+         @media print {
+        body * {
+            visibility: hidden;
+        }
+        .card, .card * {
+            visibility: visible;
+        }
+        .card {
+            position: absolute;
+            left: 0;
+            top: 0;
+            width: 100%;
+            border: none !important;
+            box-shadow: none !important;
+        }
+        .btn {
+            display: none !important;
+        }
+    }
+    
+    .card {
+        border: 1px solid #dee2e6;
+    }
+    
+    
