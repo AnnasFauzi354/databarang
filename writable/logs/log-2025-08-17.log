@@ -1,0 +1,750 @@
+DEBUG - 2025-08-17 02:30:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 02:31:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 02:59:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 02:59:21 --> ParseError: syntax error, unexpected token ";", expecting "]"
+[Method: GET, Route: barang/]
+in APPPATH\Controllers\barang.php on line 35.
+ 1 VENDORPATH\composer\ClassLoader.php(427): Composer\Autoload\{closure}('D:\\XAMPP\\htdocs\\CI4\\vendor\\composer/../../app/Controllers/barang.php')
+ 2 [internal function]: Composer\Autoload\ClassLoader->loadClass('App\\Controllers\\barang')
+ 3 SYSTEMPATH\CodeIgniter.php(885): class_exists('\\App\\Controllers\\barang', true)
+ 4 SYSTEMPATH\CodeIgniter.php(494): CodeIgniter\CodeIgniter->startController()
+ 5 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 6 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 7 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 8 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 9 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 03:04:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:04:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:05:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:05:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 03:05:30 --> ErrorException: Undefined variable $styleRound
+[Method: GET, Route: barang/25]
+in APPPATH\Views\barang\detail.php on line 84.
+ 1 APPPATH\Views\barang\detail.php(84): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $styleRound', 'D:\\XAMPP\\htdocs\\CI4\\app\\Views\\barang\\detail.php', 84)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\CI4\\app\\Views\\barang\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('barang/detail', [], true)
+ 5 APPPATH\Controllers\barang.php(42): view('barang/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\barang->detail('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 03:05:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:08:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:08:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:08:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:09:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:11:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:11:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:11:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:28:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:28:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:28:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:28:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:30:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 03:30:29 --> ErrorException: Undefined variable $barang
+[Method: GET, Route: pages/qrcode]
+in APPPATH\Views\pages\qrcode.php on line 19.
+ 1 APPPATH\Views\pages\qrcode.php(19): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php', 19)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/qrcode', [], true)
+ 5 APPPATH\Controllers\Pages.php(62): view('pages/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 03:31:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 03:31:22 --> ErrorException: Undefined variable $barang
+[Method: GET, Route: pages/qrcode]
+in APPPATH\Views\pages\qrcode.php on line 21.
+ 1 APPPATH\Views\pages\qrcode.php(21): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $barang', 'D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php', 21)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/qrcode', [], true)
+ 5 APPPATH\Controllers\Pages.php(62): view('pages/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 03:31:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 03:31:54 --> ErrorException: Undefined variable $qrCode
+[Method: GET, Route: pages/qrcode]
+in APPPATH\Views\pages\qrcode.php on line 25.
+ 1 APPPATH\Views\pages\qrcode.php(25): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $qrCode', 'D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php', 25)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/qrcode', [], true)
+ 5 APPPATH\Controllers\Pages.php(62): view('pages/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 03:35:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:35:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:35:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:35:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:36:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:36:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:36:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:36:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 03:38:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 03:38:49 --> ErrorException: Undefined property: App\Controllers\Pages::$databarangModel
+[Method: GET, Route: pages/qrcode]
+in APPPATH\Controllers\Pages.php on line 62.
+ 1 APPPATH\Controllers\Pages.php(62): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: App\\Controllers\\Pages::$databarangModel', 'D:\\XAMPP\\htdocs\\CI4\\app\\Controllers\\Pages.php', 62)
+ 2 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode()
+ 3 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:01:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:02:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:05:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:05:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:05:02 --> Error: Call to a member function getBarang() on null
+[Method: GET, Route: pages/qrcode/25]
+in APPPATH\Controllers\Pages.php on line 69.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:06:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:06:33 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:06:33 --> Error: Call to a member function find() on null
+[Method: GET, Route: pages/qrcode/25]
+in APPPATH\Controllers\Pages.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:06:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:06:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:06:42 --> Error: Call to a member function find() on null
+[Method: GET, Route: pages/qrcode/25]
+in APPPATH\Controllers\Pages.php on line 62.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:09:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:09:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:09:01 --> Error: Call to a member function find() on null
+[Method: GET, Route: pages/qrcode/25]
+in APPPATH\Controllers\Pages.php on line 67.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:12:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:12:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:12:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:12:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:12:42 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(108): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:27:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:28:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:28:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:29:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:29:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:29:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:32:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:32:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:32:32 --> Error: Call to undefined function App\Controllers\imagejpeg()
+[Method: GET, Route: pages/downloadqr/25]
+in APPPATH\Controllers\Pages.php on line 114.
+ 1 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 2 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 3 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 4 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 5 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 6 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 7 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:35:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:35:28 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(107): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:35:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:35:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:35:32 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(107): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:35:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:35:59 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(107): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:36:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:36:02 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(107): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:41:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:41:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:41:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:41:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:41:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:41:51 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(119): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:42:28 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:42:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:42:30 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(119): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:52:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:52:14 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(119): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:52:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:52:56 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(119): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 04:52:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:53:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 04:53:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 04:53:02 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(119): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:00:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:00:39 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(119): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:01:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:01:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:01:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:01:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:01:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:01:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:01:57 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(119): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:07:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:07:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:08:00 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:08:00 --> chillerlan\QRCode\Output\QRCodeOutputException: ext-gd not loaded
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php on line 90.
+ 1 VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php(70): chillerlan\QRCode\Output\QRGdImage->checkGD()
+ 2 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(310): chillerlan\QRCode\Output\QRGdImage->__construct(Object(chillerlan\QRCode\QROptions), Object(chillerlan\QRCode\Data\QRMatrix))
+ 3 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(235): chillerlan\QRCode\QRCode->initOutputInterface(Object(chillerlan\QRCode\Data\QRMatrix))
+ 4 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(226): chillerlan\QRCode\QRCode->renderMatrix(Object(chillerlan\QRCode\Data\QRMatrix), null)
+ 5 APPPATH\Controllers\Pages.php(108): chillerlan\QRCode\QRCode->render('http://localhost:8080/barang/25')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:13:39 --> chillerlan\QRCode\Output\QRCodeOutputException: ext-gd not loaded
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php on line 90.
+ 1 VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php(70): chillerlan\QRCode\Output\QRGdImage->checkGD()
+ 2 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(310): chillerlan\QRCode\Output\QRGdImage->__construct(Object(chillerlan\QRCode\QROptions), Object(chillerlan\QRCode\Data\QRMatrix))
+ 3 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(235): chillerlan\QRCode\QRCode->initOutputInterface(Object(chillerlan\QRCode\Data\QRMatrix))
+ 4 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(226): chillerlan\QRCode\QRCode->renderMatrix(Object(chillerlan\QRCode\Data\QRMatrix), null)
+ 5 APPPATH\Controllers\Pages.php(108): chillerlan\QRCode\QRCode->render('http://localhost:8080/barang/25')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:13:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:13:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:13:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:13:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:13:47 --> chillerlan\QRCode\Output\QRCodeOutputException: ext-gd not loaded
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php on line 90.
+ 1 VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php(70): chillerlan\QRCode\Output\QRGdImage->checkGD()
+ 2 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(310): chillerlan\QRCode\Output\QRGdImage->__construct(Object(chillerlan\QRCode\QROptions), Object(chillerlan\QRCode\Data\QRMatrix))
+ 3 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(235): chillerlan\QRCode\QRCode->initOutputInterface(Object(chillerlan\QRCode\Data\QRMatrix))
+ 4 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(226): chillerlan\QRCode\QRCode->renderMatrix(Object(chillerlan\QRCode\Data\QRMatrix), null)
+ 5 APPPATH\Controllers\Pages.php(108): chillerlan\QRCode\QRCode->render('http://localhost:8080/barang/25')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:20:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:20:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:20:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:20:23 --> chillerlan\QRCode\Output\QRCodeOutputException: ext-gd not loaded
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php on line 90.
+ 1 VENDORPATH\chillerlan\php-qrcode\src\Output\QRGdImage.php(70): chillerlan\QRCode\Output\QRGdImage->checkGD()
+ 2 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(310): chillerlan\QRCode\Output\QRGdImage->__construct(Object(chillerlan\QRCode\QROptions), Object(chillerlan\QRCode\Data\QRMatrix))
+ 3 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(235): chillerlan\QRCode\QRCode->initOutputInterface(Object(chillerlan\QRCode\Data\QRMatrix))
+ 4 VENDORPATH\chillerlan\php-qrcode\src\QRCode.php(226): chillerlan\QRCode\QRCode->renderMatrix(Object(chillerlan\QRCode\Data\QRMatrix), null)
+ 5 APPPATH\Controllers\Pages.php(113): chillerlan\QRCode\QRCode->render('http://localhost:8080/barang/25')
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:25:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:25:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:25:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:30:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:30:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:30:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:32:09 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:32:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:32:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:32:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:35:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:35:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:35:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:37:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:53:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:53:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:53:25 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:53:25 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:54:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:54:42 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\../../img/logocilacap.jpeg): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\../../img/logocilacap.jpeg): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\../../img/logocilacap.jpeg')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\../../img/logocilacap.jpeg', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:54:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:54:52 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\../../img/logocilacap.jpeg): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\../../img/logocilacap.jpeg): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\../../img/logocilacap.jpeg')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\../../img/logocilacap.jpeg', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:55:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:56:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:56:07 --> BaconQrCode\Exception\RuntimeException: You need to install the imagick extension to use this back end
+[Method: GET, Route: pages/downloadqr/25]
+in VENDORPATH\bacon\bacon-qr-code\src\Renderer\Image\ImagickImageBackEnd.php on line 64.
+ 1 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(464): BaconQrCode\Renderer\Image\ImagickImageBackEnd->__construct('png')
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(440): SimpleSoftwareIO\QrCode\Generator->getFormatter()
+ 3 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(171): SimpleSoftwareIO\QrCode\Generator->getRenderer()
+ 4 APPPATH\Controllers\Pages.php(118): SimpleSoftwareIO\QrCode\Generator->generate('http://localhost:8080/barang/25')
+ 5 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->downloadqr('25')
+ 6 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 7 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 8 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 9 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+10 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+11 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:57:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:57:06 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:57:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:57:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:57:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:57:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:57:17 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:57:17 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:57:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:57:37 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:57:40 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:57:41 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:57:41 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:57:57 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:57:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 05:57:59 --> ErrorException: file_get_contents(D:\XAMPP\htdocs\CI4\public\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory
+[Method: GET, Route: pages/qrcode/25]
+in VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php on line 205.
+ 1 [internal function]: CodeIgniter\Debug\Exceptions->errorHandler(2, 'file_get_contents(D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png): Failed to open stream: No such file or directory', 'D:\\XAMPP\\htdocs\\CI4\\vendor\\simplesoftwareio\\simple-qrcode\\src\\Generator.php', 205)
+ 2 VENDORPATH\simplesoftwareio\simple-qrcode\src\Generator.php(205): file_get_contents('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png')
+ 3 APPPATH\Controllers\Pages.php(90): SimpleSoftwareIO\QrCode\Generator->merge('D:\\XAMPP\\htdocs\\CI4\\public\\assets/img/logo-cilacap.png', 0.3, true)
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 05:58:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:58:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 05:58:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:00:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:01:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:02:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:06:30 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:06:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:07:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:09:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:09:37 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:12:01 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:13:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:13:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:17:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:18:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:19:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:20:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:20:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:20:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:20:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:23:34 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:25:22 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:28:32 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:29:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:31:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:35:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:35:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:40:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:43:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:44:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 06:47:23 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:26:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:26:43 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:26:45 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:26:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:26:54 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:26:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:27:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:27:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:28:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:30:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:30:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:35:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:38:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:40:51 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:46:31 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:47:58 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:51:42 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:55:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 10:57:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:25:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:25:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:27:52 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:28:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:31:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:32:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:33:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:36:36 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:37:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:40:35 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:41:44 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:42:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:56:49 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 14:58:02 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:00:20 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:05:47 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:08:46 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:10:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:12:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:13:39 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:14:19 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:15:29 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:15:56 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:16:14 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:16:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:16:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:16:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:18:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:18:38 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:19:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:19:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:20:24 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:21:12 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:21:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:22:26 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:23:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:23:50 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:23:53 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:24:03 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:24:11 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:24:15 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:25:04 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:25:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 15:25:07 --> CodeIgniter\HTTP\Exceptions\BadRequestException: The URI you submitted has disallowed characters: ".$id"
+[Method: GET, Route: barang/.$id]
+in SYSTEMPATH\Router\Router.php on line 741.
+ 1 SYSTEMPATH\Router\Router.php(207): CodeIgniter\Router\Router->checkDisallowedChars('barang/.$id')
+ 2 SYSTEMPATH\CodeIgniter.php(832): CodeIgniter\Router\Router->handle('barang/.$id')
+ 3 SYSTEMPATH\CodeIgniter.php(455): CodeIgniter\CodeIgniter->tryToRouteIt(Object(CodeIgniter\Router\RouteCollection))
+ 4 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 5 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 6 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 7 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+ 8 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 15:27:21 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+CRITICAL - 2025-08-17 15:27:22 --> ErrorException: Undefined variable $id
+[Method: GET, Route: pages/qrcode/25]
+in APPPATH\Views\pages\qrcode.php on line 7.
+ 1 APPPATH\Views\pages\qrcode.php(7): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined variable $id', 'D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php', 7)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\CI4\\app\\Views\\pages\\qrcode.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('pages/qrcode', [], true)
+ 5 APPPATH\Controllers\Pages.php(101): view('pages/qrcode', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\Pages->qrcode('25')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\Pages))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+DEBUG - 2025-08-17 15:33:07 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:10 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:13 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:16 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:18 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:27 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:48 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:55 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:33:59 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:34:05 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.
+DEBUG - 2025-08-17 15:34:06 --> Session: Class initialized using 'CodeIgniter\Session\Handlers\FileHandler' driver.

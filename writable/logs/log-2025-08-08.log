@@ -1,0 +1,43 @@
+CRITICAL - 2025-08-08 08:10:58 --> ErrorException: Undefined array key "Nama"
+[Method: GET, Route: barang/]
+in APPPATH\Views\barang\index.php on line 27.
+ 1 APPPATH\Views\barang\index.php(27): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined array key "Nama"', 'D:\\XAMPP\\htdocs\\CI4\\app\\Views\\barang\\index.php', 27)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\CI4\\app\\Views\\barang\\index.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('barang/index', [], true)
+ 5 APPPATH\Controllers\barang.php(25): view('barang/index', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\barang->index()
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2025-08-08 08:36:20 --> CodeIgniter\View\Exceptions\ViewException: Invalid file: "barang/detil.php"
+[Method: GET, Route: barang/inova]
+in SYSTEMPATH\Exceptions\FrameworkException.php on line 39.
+ 1 SYSTEMPATH\View\View.php(212): CodeIgniter\Exceptions\FrameworkException::forInvalidFile('barang/detil.php')
+ 2 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('barang/detil', [], true)
+ 3 APPPATH\Controllers\barang.php(34): view('barang/detil', [...])
+ 4 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\barang->detail('inova')
+ 5 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+ 6 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 7 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+ 8 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+ 9 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+10 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
+CRITICAL - 2025-08-08 08:39:43 --> ErrorException: Undefined property: CodeIgniter\View\View::$endSection
+[Method: GET, Route: barang/inova]
+in APPPATH\Views\barang\detail.php on line 24.
+ 1 APPPATH\Views\barang\detail.php(24): CodeIgniter\Debug\Exceptions->errorHandler(2, 'Undefined property: CodeIgniter\\View\\View::$endSection', 'D:\\XAMPP\\htdocs\\CI4\\app\\Views\\barang\\detail.php', 24)
+ 2 SYSTEMPATH\View\View.php(224): include('D:\\XAMPP\\htdocs\\CI4\\app\\Views\\barang\\detail.php')
+ 3 SYSTEMPATH\View\View.php(227): CodeIgniter\View\View->CodeIgniter\View\{closure}()
+ 4 SYSTEMPATH\Common.php(1173): CodeIgniter\View\View->render('barang/detail', [], true)
+ 5 APPPATH\Controllers\barang.php(34): view('barang/detail', [...])
+ 6 SYSTEMPATH\CodeIgniter.php(933): App\Controllers\barang->detail('inova')
+ 7 SYSTEMPATH\CodeIgniter.php(507): CodeIgniter\CodeIgniter->runController(Object(App\Controllers\barang))
+ 8 SYSTEMPATH\CodeIgniter.php(354): CodeIgniter\CodeIgniter->handleRequest(null, Object(Config\Cache), false)
+ 9 SYSTEMPATH\Boot.php(334): CodeIgniter\CodeIgniter->run()
+10 SYSTEMPATH\Boot.php(67): CodeIgniter\Boot::runCodeIgniter(Object(CodeIgniter\CodeIgniter))
+11 FCPATH\index.php(59): CodeIgniter\Boot::bootWeb(Object(Config\Paths))
+12 SYSTEMPATH\rewrite.php(44): require_once('D:\\XAMPP\\htdocs\\CI4\\public\\index.php')
