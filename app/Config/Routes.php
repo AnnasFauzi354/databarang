@@ -15,6 +15,15 @@ $routes->setAutoRoute(false);
 $routes->get('barang/(:num)', 'Barang::detail/$1');
 $routes->get('barang/detail/(:num)', 'Barang::detail/$1');
 $routes->get('barang/qrcode/(:num)', 'Barang::qrcode/$1');
+$routes->get('clear-cache', function () {
+    $phpPath = '/opt/plesk/php/8.1/bin/php';
+    $projectPath = realpath(APPPATH . '../');
+    $sparkCommand = "$phpPath $projectPath/spark clear-cache";
+
+    $output = shell_exec($sparkCommand);
+
+    return "<pre>$output</pre>";
+});
 // Grup yang membutuhkan auth
 $routes->group('', ['filter' => 'auth'], function ($routes) {
     $routes->get('barang', 'Barang::index');
