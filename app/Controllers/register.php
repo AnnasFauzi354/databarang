@@ -6,7 +6,7 @@ namespace App\Controllers;
 use App\Models\userModel;
 
 
-class register extends BaseController
+class Register extends BaseController
 {
     protected $userModel;
 

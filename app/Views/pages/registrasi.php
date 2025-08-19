@@ -5,7 +5,7 @@
   <meta charset="utf-8">
   <meta content="width=device-width, initial-scale=1.0" name="viewport">
 
-  <title>Registrasi</title>
+  <title>registrasi</title>
   <meta content="" name="description">
   <meta content="" name="keywords">
 
@@ -62,7 +62,7 @@
 
                   </div>
 
-                  <form action="<?= base_url('/register/save') ?>" method="post" class="row g-3 needs-validation" novalidate>
+                  <form action="<?= base_url('/registrasi/process') ?>" method="post" class="row g-3 needs-validation" novalidate>
 
                     <div class="col-12">
                       <label for="username" class="form-label">Username</label>
